@@ -3,7 +3,6 @@ from typing import Any, List, Tuple
 
 from prefect import task
 
-
 # https://alexwlchan.net/2018/12/iterating-in-fixed-size-chunks/
 def chunked_iterable(iterable, size):
     it = iter(iterable)
